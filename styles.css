@@ -1,0 +1,35 @@
+
+body {background-color:rgb(248, 242, 242); 
+font-family:sans-serif}
+
+h1{ color:black;
+font-family: sans-serif;
+background-color: rgb(243, 223, 193);
+text-align: center;
+}
+
+.highlights{
+    background-color: rgb(241, 230, 215);
+}
+
+#like{ background-color: rgb(238, 233, 226);}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #my-life{font-weight: 400;}
+
+  .profile-hobbies{font-weight: 400;}
+
+.photo-captions{font-size:smaller;}
